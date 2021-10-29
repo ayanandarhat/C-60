@@ -1,0 +1,25 @@
+body{
+text-align: center;
+}
+h1{
+font-size:40px;
+}
+#app{
+width:100%;
+height:800px;
+background-color:darkorange;
+}
+#game{
+width:100%;
+height:800px;
+background-color:darkviolet;
+}
+img {
+transition: transform .2s;
+}
+img:hover {
+transform: scale(0.9);
+}
+.line {
+height: 6px; background-color: #000; width: 70px; margin: 8px auto;
+}
